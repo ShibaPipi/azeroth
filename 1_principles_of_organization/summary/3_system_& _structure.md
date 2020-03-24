@@ -23,7 +23,7 @@
     * 能够按照要求将处理结果输出给用户（输出设备）
     
     <div align="center">
-        <img src="../images/1/von_neumann_architecture.png" height="200" >
+        <img src="../../images/1/von_neumann_architecture.png" height="200" >
     </div>
 
 >### 现在计算机的结构
