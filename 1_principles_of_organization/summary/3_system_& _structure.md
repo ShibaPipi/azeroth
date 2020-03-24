@@ -21,12 +21,21 @@
     * 能够长期记忆程序，数据，中间结果及最终运算结果的能力（存储器）
     * 能够具备算术，逻辑运算和数据传送等数据加工处理能力（运算器，控制器）
     * 能够按照要求将处理结果输出给用户（输出设备）
+* 示意图
     
     <div align="center">
-        <img src="../../images/1/von_neumann_architecture.png" height="200" >
+        <img src="../../../images/1/von_neumann_architecture.png" height="200" >
     </div>
 
+    * CPU = 运算器 + 控制器
+    * 将存储器和 CPU 分开并不是好的结构，因为会导致冯诺依曼瓶颈 —— CPU 和存储器速率之间的问题无法调和，CPU 经常空转等待数据传输
+
 >### 现在计算机的结构
-* 
-* 
-* 
+* 示意图
+
+    <div align="center">
+        <img src="../../../images/1/modern_architecture.png" height="200" >
+    </div>
+
+* CPU = 运算器 + 控制器 + 存储器（比磁带，硬盘更高速的设备，如内存，CPU 的寄存器）
+* 以存储器为核心
