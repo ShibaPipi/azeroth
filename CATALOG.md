@@ -13,11 +13,11 @@
     * [计算机的输入输出设备](1_principles_of_organization/2_organization/2_io_devices.md)
     * [计算机存储器概览](1_principles_of_organization/2_organization/3_storage_overview.md)
     * [计算机的主存储器与辅助存储器](1_principles_of_organization/2_organization/4_main_storage_&_secondary_storage.md)
-    * [计算机的高速缓存](1_principles_of_organization/2_organization/)
-    * [计算机的指令系统](1_principles_of_organization/2_organization/)
-    * [计算机的控制器](1_principles_of_organization/2_organization/)
-    * [计算机的运算器](1_principles_of_organization/2_organization/)
-    * [计算机指令的执行过程](1_principles_of_organization/2_organization/)
+    * [计算机的高速缓存](1_principles_of_organization/2_organization/5_cache.md)
+    * [计算机的指令系统](1_principles_of_organization/2_organization/6_instruction_system.md)
+    * [计算机的控制器](1_principles_of_organization/2_organization/7_controller.md)
+    * [计算机的运算器](1_principles_of_organization/2_organization/8_arithmetic_unit.md)
+    * [计算机指令的执行过程](1_principles_of_organization/2_organization/9_instruction_execution.md)
 * 计算
     * 进制运算基础
     * 有符号和无符号数
