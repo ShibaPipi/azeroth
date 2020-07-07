@@ -11,6 +11,7 @@
         from DoublyLinkedList import DoublyLinkedList, Node
   
         class FIFOCache(object):
+
             def __init__(self, capacity):
                 self.capacity = capacity
                 self.size = 0
