@@ -24,7 +24,7 @@
 * 示意图
     
     <div align="center">
-        <img src="../../../images/1/von_neumann_architecture.png" height="200" />
+        <img src="./img/von_neumann_architecture.png" height="200" />
     </div>
 
     * CPU = 运算器 + 控制器
@@ -34,7 +34,7 @@
 * 示意图
 
     <div align="center">
-        <img src="../../../images/1/modern_architecture.png" height="200" />
+        <img src="./img/modern_architecture.png" height="200" />
     </div>
 
 * CPU = 运算器 + 控制器 + 存储器（比磁带，硬盘更高速的设备，如内存，CPU 的寄存器）

@@ -62,7 +62,7 @@
 * 图示
 
     <div align="center">
-        <img src="../../../images/2/structure.jpg" height="200" />
+        <img src="./img/structure.jpg" height="200" />
     </div>
 
 * 通信层次
