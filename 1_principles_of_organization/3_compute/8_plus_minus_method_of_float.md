@@ -112,5 +112,5 @@
 * 总结
     
     <div align="center">
-        <img src="./img/compute.jpg" height="400" />
+        <img src="./img/compute.jpg" height="750" />
     </div>
