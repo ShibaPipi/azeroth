@@ -19,7 +19,7 @@
 ## 内容导图（果然加载不出来...）
 
 <div align="center">
-    <img src="images/azeroth.png" alt="这里是知识思维导图~~~"/>
+    <img src="img/azeroth.png" alt="这里是知识思维导图~~~"/>
 </div>
 
 ## 注意事项
