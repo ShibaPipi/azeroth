@@ -19,26 +19,41 @@
     * [计算机的运算器](1_principles_of_organization/2_organization/8_arithmetic_unit.md)
     * [计算机指令的执行过程](1_principles_of_organization/2_organization/9_instruction_execution.md)
 * 计算
-    * 进制运算基础
-    * 有符号和无符号数
-    * 二进制的原码、补码、反码表示法
-    * 定点数与浮点数
-    * 定点数的运算
-    * 浮点数的运算
-    * 缓存置换算法
-    * 双向链表
-    * LRU
-    * FIFO
-    * LFU
-* 练习
+    * [进制运算基础](1_principles_of_organization/3_compute/1_binary_operation.md)
+    * [有符号和无符号数](1_principles_of_organization/3_compute/2_signed_number_&_unsigned_number.md)
+    * [二进制的补码表示法](1_principles_of_organization/3_compute/3_binary_complement.md)
+    * [二进制的反码表示法](1_principles_of_organization/3_compute/4_inverse_code.md)
+    * [小数的补码](1_principles_of_organization/3_compute/5_decimal_complement.md)
+    * [定点数与浮点数](1_principles_of_organization/3_compute/6_fix_&%20_float.md)
+    * [定点数的加减法运算](1_principles_of_organization/3_compute/7_plus_minus_method_of_fix.md)
+    * [浮点数的加减法运算](1_principles_of_organization/3_compute/8_plus_minus_method_of_float.md)
+    * [浮点数的乘除法运算](1_principles_of_organization/3_compute/9_multiplication_division_method_of_float.md)
+* 练习（缓存置换算法）
+    * [双向链表](1_principles_of_organization/4_practice/1_principle_&_practice_of_doubly_linked_list.md)
+    * [FIFO](1_principles_of_organization/4_practice/2_fifo.md)
+    * [LRU](1_principles_of_organization/4_practice/3_lru.md)
+    * [LFU](1_principles_of_organization/4_practice/4_lfu.md)
 
 ## `（以下为暂定章节）`
 
 >### 第 2 章 操作系统
-* 操作系统基本功能
-    * 进程管理
-    * 作业管理 / 文件管理
-    * 存储管理 / 设备管理
+* 操作系统基础
+    * [开篇](2_os/1_basic/1_start.md)
+    * [操作系统概览](2_os/1_basic/2_overview.md)
+    * [进程管理之进程实体](2_os/1_basic/3_process_entity.md)
+    * [进程管理之五状态模型](2_os/1_basic)
+    * [进程管理之进程同步](2_os/1_basic)
+    * [Linux的进程管理](2_os/1_basic)
+    * [作业管理之进程调度](2_os/1_basic)
+    * [作业管理之死锁](2_os/1_basic)
+    * [存储管理之内存分配与回收](2_os/1_basic)
+    * [存储管理之段页式存储管理](2_os/1_basic)
+    * [存储管理之虚拟内存](2_os/1_basic)
+    * [Linux的存储管理](2_os/1_basic)
+    * [操作系统的文件管理](2_os/1_basic)
+    * [Linux文件的基本操作](2_os/1_basic)
+    * [Linux的文件系统](2_os/1_basic)
+    * [操作系统的设备管理](2_os/1_basic)
 * Linux 系统
     * 内存管理 / 进程管理
     * 文件系统
