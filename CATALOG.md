@@ -41,7 +41,7 @@
     * [开篇](2_os/1_basic/1_start.md)
     * [操作系统概览](2_os/1_basic/2_overview.md)
     * [进程管理之进程实体](2_os/1_basic/3_process_entity.md)
-    * [进程管理之五状态模型](2_os/1_basic)
+    * [进程管理之五种状态模型](2_os/1_basic)
     * [进程管理之进程同步](2_os/1_basic)
     * [Linux的进程管理](2_os/1_basic)
     * [作业管理之进程调度](2_os/1_basic)
