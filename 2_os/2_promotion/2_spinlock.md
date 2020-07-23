@@ -48,7 +48,6 @@
                 }
             }
             
-            
             int main(){
                 printf("Start in main function.\n");
                 pthread_spin_init(&spin_lock, 0);

@@ -47,7 +47,6 @@
                 }
             }
             
-            
             int main() {
                 printf("Start in main function.");
                 pthread_t thread1, thread2;
