@@ -64,54 +64,54 @@
     * 改进上面代码，为
     
         ```C++
-                #include <stdio.h>
-                #include <stdlib.h>
-                #include <unistd.h>
-                #include <pthread.h>
-                #include <vector>
-                
-                // 初始化互斥量  
-                pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
-                
-                // 临界资源
-                int num = 0;
-                
-                // 生产者
-                void *producer(void*) {
-                    int times = 100000000;
-                    while(times--) {
-                        // 加锁
-                        pthread_mutex_lock(&mutex);
-                        num += 1;
-                        // 解锁
-                        pthread_mutex_unlock(&mutex);
-                    }
+            #include <stdio.h>
+            #include <stdlib.h>
+            #include <unistd.h>
+            #include <pthread.h>
+            #include <vector>
+            
+            // 初始化互斥量  
+            pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+            
+            // 临界资源
+            int num = 0;
+            
+            // 生产者
+            void *producer(void*) {
+                int times = 100000000;
+                while(times--) {
+                    // 加锁
+                    pthread_mutex_lock(&mutex);
+                    num += 1;
+                    // 解锁
+                    pthread_mutex_unlock(&mutex);
                 }
-                
-                // 消费者
-                void *comsumer(void*) {
-                    int times = 100000000;
-                    while(times--) {
-                        // 加锁
-                        pthread_mutex_lock(&mutex);
-                        num -= 1;
-                        // 解锁
-                        pthread_mutex_unlock(&mutex);
-                    }
+            }
+            
+            // 消费者
+            void *comsumer(void*) {
+                int times = 100000000;
+                while(times--) {
+                    // 加锁
+                    pthread_mutex_lock(&mutex);
+                    num -= 1;
+                    // 解锁
+                    pthread_mutex_unlock(&mutex);
                 }
-                
-                
-                int main() {
-                    printf("Start in main function.");
-                    pthread_t thread1, thread2;
-                    pthread_create(&thread1, NULL, &producer, NULL);
-                    pthread_create(&thread2, NULL, &comsumer, NULL);
-                    pthread_join(thread1, NULL);
-                    pthread_join(thread2, NULL);
-                    printf("Print in main function: num = %d\n", num);
-                    return 0;
-                }
-            ```
+            }
+            
+            
+            int main() {
+                printf("Start in main function.");
+                pthread_t thread1, thread2;
+                pthread_create(&thread1, NULL, &producer, NULL);
+                pthread_create(&thread2, NULL, &comsumer, NULL);
+                pthread_join(thread1, NULL);
+                pthread_join(thread2, NULL);
+                printf("Print in main function: num = %d\n", num);
+                return 0;
+            }
+        ```
     
     * 此时编译代码多次执行后，发现 `num 始终为 0`，说明加锁和解锁操作有效
     * 但是，程序的执行时间会变长，是由于加锁解锁会 `带来性能的损耗`
